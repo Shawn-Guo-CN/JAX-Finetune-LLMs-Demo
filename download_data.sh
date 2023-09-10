@@ -6,5 +6,5 @@ if [ ! -d "data" ]; then
 fi
 
 cd data
-wget https://github.com/tatsu-lab/stanford_alpaca/blob/main/prompt.txt
-wget https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json
+wget https://raw.githubusercontent.com/tatsu-lab/stanford_alpaca/main/prompt.txt
+wget https://raw.githubusercontent.com/tatsu-lab/stanford_alpaca/main/alpaca_data.json
